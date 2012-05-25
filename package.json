@@ -3,7 +3,9 @@
     "description": "Express bindings for YUI3 modules",
     "version": "0.1.0",
     "author": "Graham Cox <graham@grahamcox.co.uk>",
-    "dependencies": {},
+    "dependencies": {
+        "async": "latest"
+    },
     "devDependencies": {
         "mocha": "latest",
         "should": "latest"
