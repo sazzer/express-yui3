@@ -48,7 +48,7 @@ describe("Module Loader", function() {
     describe(".loadModule", function() {
         describe("simplemodule", function() {
             it("should find the module", function(done) {
-                moduleloader.loadModule(path.join(testdata, "simplemodule", "simplemodule.js"), function(module) {
+                moduleloader.loadModule(path.join(testdata, "simplemodule", "simplemodule.js"), testdata, function(module) {
                     should.exist(module);
                     module.should.have.property("name", "simplemodule");
                     module.should.have.property("version", "1.0.0");
