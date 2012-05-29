@@ -8,6 +8,17 @@ Making configuration of YUI3 modules painless
 * Fast
 * Remove duplication of configuration required for YUI3 modules
 
+## What doesn't it do yet
+So far the loader that is generated is incredably simple. So simple in fact that it doesn't do hardly anything. Features currently missing that will be added as and when I get round to it are:
+* Support for language files
+* Support for widget assets
+* Support for comboing of modules
+* Support for rollups
+* Support for minifiction of modules
+* Support for css modules
+* Support for submodules
+* More testing
+
 ## Examples
 
 ```javascript
@@ -47,6 +58,7 @@ Using the above configuration for Express, you can use your modules in a browser
 ```
 
 This will then set up the YUI_config variable as described above so you can use YUI3 like normal and have all of your modules available to you.
+
 # Developed By
 * Graham Cox
 
