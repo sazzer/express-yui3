@@ -1,14 +1,26 @@
 {
     "name": "express-yui3",
     "description": "Express bindings for YUI3 modules",
+    "main": "index.js",
     "version": "0.1.0",
     "author": "Graham Cox <graham@grahamcox.co.uk>",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/sazzer/express-yui3.git"
+    },
     "dependencies": {
-        "async": "latest",
-        "beeline": "latest"
+        "async": ">= 0.1.21",
+        "beeline": ">= 0.1.10"
     },
     "devDependencies": {
-        "mocha": "latest",
-        "should": "latest"
+        "mocha": ">= 1.0.3",
+        "should": ">= 0.6.3"
+    },
+    "license": "MIT/X11",
+    "engines": { 
+        "node": "*"
+    },
+    "scripts": {
+        "test": "mocha -R spec test/*.js"
     }
 }
