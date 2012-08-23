@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/sazzer/express-yui3.png)](http://travis-ci.org/sazzer/express-yui3)
 # Express-yui3
 
 Making configuration of YUI3 modules painless
